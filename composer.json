@@ -1,0 +1,14 @@
+{
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 App/router.php"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    }
+}
